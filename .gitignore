@@ -82,6 +82,42 @@ target/
 profile_default/
 ipython_config.py
 
+#################################################
+
+########################################
+# GIS / Geospatial formats
+########################################
+
+# Rasters
+*.tif
+*.tiff
+*.geotiff
+*.cog.tif
+*.img
+*.vrt
+
+# Vector
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.gpkg
+
+# Tiles
+*.mbtiles
+*.pmtiles
+*.pbf
+*.mvt
+
+# Other spatial formats
+*.geojson
+*.topojson
+*.las
+*.laz
+
+#################################################
+
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
 #   intended to run in multiple environments; otherwise, check them in:
